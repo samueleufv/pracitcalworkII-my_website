@@ -11,3 +11,5 @@
 -added Github,Linkedin,UFV photos in Images
 -added second page: about.html with relative css for its content
 -added third page: contact.html with relative css for its content
+-added fourth page: net.html with relative css for its content
+-added link partner image into Images
