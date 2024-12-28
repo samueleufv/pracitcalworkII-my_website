@@ -15,3 +15,4 @@
 -added link partner image into Images
 -added fifth page: topic.html with relative css for its content 
 -added 3 more images into Images , useful for topic.html page
+-added 1 more images into Images , used in about.html and a pdf file used as cv document
