@@ -361,7 +361,12 @@
     font-size: 1rem;
   }
   
-  
+  .centered-link {
+    display: block; 
+    text-align: center; 
+    margin: 0 auto; 
+    margin-bottom: 20px; 
+  }
 .program-structure, .why-choose ,.extended-text{
     background: white;
     padding: 1.5rem;
