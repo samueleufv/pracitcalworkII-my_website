@@ -9,4 +9,5 @@
 -added first page: index.html
 -added relative css for its content
 -added Github,Linkedin,UFV photos in Images
--added second page: about.html with relative css for its content 
+-added second page: about.html with relative css for its content
+-added third page: contact.html with relative css for its content
