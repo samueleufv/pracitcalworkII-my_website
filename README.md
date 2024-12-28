@@ -8,3 +8,4 @@
 -added my photo : ("miafoto") into Images
 -added first page: index.html
 -added relative css for its content
+-added Github,Linkedin,UFV photo in Images
