@@ -18,3 +18,4 @@
 -added 1 more images into Images , used in about.html and a pdf file used as cv document
 -added the sixth page: degree.html with relative css fot its content
 -added the seventh page: fce.html
+-added a captcha to contact.html
