@@ -1,4 +1,4 @@
-
+/* Reset e Base */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@
     background-color: #f4f4f4;
   }
   
-  
+  /* Palette Colori Coerente */
   :root {
     --primary-color: #003366;
     --secondary-color: #6BA6E8;
@@ -20,7 +20,7 @@
     --text-light: #6A6A6A;
   }
   
-  
+  /* Header Consistente */
   header {
     background-color: var(--primary-color);
     color: white;
@@ -44,7 +44,7 @@
     border-radius: 4px;
   }
   
-  
+  /* Navigazione */
   nav {
     background-color: var(--primary-color);
   }
@@ -70,7 +70,7 @@
     color: var(--secondary-color);
   }
   
-  
+  /* Layout Principale */
   main {
     display: flex;
     margin: 20px;
@@ -93,7 +93,7 @@
     display: none;
   }
   
- 
+  /* Sidebar Uniforme */
   aside h2 {
     color: var(--primary-color);
     margin-bottom: 15px;
@@ -110,13 +110,13 @@
     border-bottom: 1px solid #e0e0e0;
   }
   
- 
+  /* Sezioni Contenuto */
   section h1, section h2 {
     color: var(--primary-color);
     margin-bottom: 20px;
   }
   
-  
+  /* Footer */
   footer {
     background-color: var(--primary-color);
     color: white;
@@ -135,11 +135,12 @@
   }
   
   
+  /* Nasconde le sotto-liste */
   .hidden {
     display: none;
   }
   
-  
+  /* Stile di base per il sidebar */
   .sidebar {
     width: 250px;
     background-color: #f4f4f4;
@@ -173,13 +174,11 @@
     color: #007BFF;
   }
   
-  
+  /* Stile per la sotto-lista (corsi) */
   .sidebar ul ul {
     padding-left: 20px;
   }
-  /*index page:*/
   
-
   .contact-form h1 {
     text-align: center;
   }
@@ -225,6 +224,8 @@
   button[type="submit"]:hover {
     background-color: var(--secondary-color);
   }
+  
+  
   aside.sidebar {
     flex: 1;
     background-color: var(--background-light);
@@ -287,8 +288,7 @@
   .partner-link:hover {
     background-color: var(--secondary-color);
   }
-
-
+  
   .profile-section {
     display: flex;
     gap: 20px;
@@ -306,9 +306,7 @@
   }
   
   
-
-
-.welcome-section {
+  .welcome-section {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
@@ -367,7 +365,53 @@
     margin: 0 auto; 
     margin-bottom: 20px; 
   }
-.program-structure, .why-choose ,.extended-text{
+  
+  
+  .degree-content {
+    flex: 3;
+    padding: 20px;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .degree-intro {
+    margin-bottom: 2rem;
+  }
+  
+  .degree-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .feature-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .feature-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .feature-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feature-card ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .feature-card ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .program-structure, .why-choose ,.extended-text{
     background: white;
     padding: 1.5rem;
     border-radius: 8px;
@@ -380,10 +424,11 @@
     margin-bottom: 1rem;
   }
   
-  .extended-text h3 {
+  .extended-text h3 , .program-structure h3 {
     color: var(--primary-color);  
     margin-top: 2rem;            
     margin-bottom: 1rem;         
   }
+  
   
   

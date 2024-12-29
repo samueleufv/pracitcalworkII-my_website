@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Degree - Pratical_Work_II</title>
+  <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+  <header>
+    <div class="top-header">
+      <a href="index.html" class="logo">
+        <img src="..\Images\UFV_logo.png" alt="UFV Logo">
+      </a>
+      <div class="title-bar">degree.html</div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="degree.html">Degree</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="net.html">Net</a></li>
+        <li><a href="topic.html">Topic</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="breadcrumb">
+    <p><span>&lt;site name&gt; → degree</span></p>
+  </div>
+
+  <main>
+    <aside class="sidebar">
+      <h2>Courses for year</h2>
+      <ul>
+        <li>
+          <button onclick="toggleList('year1')">Year 1</button>
+          <ul id="year1" class="hidden">
+            <li>Calculus: MAT 1-SEM 6-ECTF </li>
+            <li>Physics: ING-PHY 1-SEM 6-ECTF </li>
+            <li><a href="fce.html">Fundamentals of Computer Engineering : ING-INF 1-SEM 6-ECTF</a></li>
+            <li>Algebra: MAT 2-SEM 6-ECTF </li>
+            <li>Programmation: ING-INF 2-SEM 6-ECTF</li>
+            <li>Computer Architecture: ING-INF 2-SEM 6-ECTF</li>
+          </ul>
+        </li>
+        <li>
+          <button onclick="toggleList('year2')">Year 2</button>
+          <ul id="year2" class="hidden">
+            <li>Algorithms: MAT 3-SEM 6-ECTF</li>
+            <li>Database: ING-INF 3-SEM 6-ECTF</li>
+            <li>Programmation II : ING-INF 3-SEM 6-ECTF</li>
+            <li>UML fundamentals: ING-INF 3-SEM 6-ECTF</li>
+            <li>Statistic: MAT 4-SEM 6-ECTF</li>
+            <li>Operative System: ING-INF 4-SEM 6-ECTF</li>
+            <li>Electronics : ING-PHY 4-SEM 6-ECTF</li>
+          </ul>
+        </li>
+        <li>
+          <button onclick="toggleList('year3')">Year 3</button>
+          <ul id="year3" class="hidden">
+            <li>Networks : ING-CON 5-SEM 6-ECTF</li>
+            <li>Artificial Intelligence : MAT 5-SEM 6-ECTF</li>
+            <li>Security : ING-INF 5-SEM 6-ECTF</li>
+            <li>Automation: ING-INF 6-SEM 6-ECTF</li>
+            <li>Concurrent Programmation: ING-INF 6-SEM 6-ECTF</li>
+            <li>History of IT: ING-INF 6-SEM 6-ECTF</li>
+          </ul>
+        </li>
+        <li>
+          <button onclick="toggleList('year4')">Year 4</button>
+          <ul id="year4" class="hidden">
+            <li>Economics: ECO 1 7-SEM 6-ECTF</li>
+            <li>Machine Learning: ING-INF 7-SEM 6-ECTF</li>
+            <li>Data Mining: MAT 7-SEM 6-ECTF</li>
+            <li>Final Project 8-SEM 6-ECTF</li>
+          </ul>
+        </li>
+      </ul>
+    </aside>
+
+    <section class="degree-content">
+      <h1 >Computer Engineering Degree</h1>
+      
+      <div class="degree-intro">
+        <h2 >Why Computer Engineering?</h2>
+        <p>Computer Engineering stands at the forefront of technological innovation, bridging hardware and software to create solutions that shape our future.<br>
+             This program combines electrical engineering principles with computer science fundamentals, preparing students for careers in an increasingly digital world.</p>
+      </div>
+
+      <div class="degree-features">
+        <div class="feature-card">
+          <h3>🎯 Program Objectives</h3>
+          <ul>
+            <li>Develop robust software systems</li>
+            <li>Design computer architectures</li>
+            <li>Implement secure networks</li>
+            <li>Create AI and machine learning solutions</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <h3>💼 Career Opportunities</h3>
+          <ul>
+            <li>Software Engineer</li>
+            <li>Systems Architect</li>
+            <li>AI Developer</li>
+            <li>Network Security Specialist</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <h3>🌟 Key Skills Acquired</h3>
+          <ul>
+            <li>Programming & Software Development</li>
+            <li>Computer Architecture</li>
+            <li>Database Management</li>
+            <li>Artificial Intelligence</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="program-structure">
+        <h2>Program Structure</h2>
+        <p>
+            Computer engineering program is structured across four years, each building upon the previous <br>
+             to create a comprehensive understanding of both hardware and software aspects of computing.<br>
+             The curriculum combines theoretical knowledge with practical applications through laboratory work and projects.<br>  
+            The program is structured to provide a strong foundational knowledge during the first two years, <br>
+            with a broad focus on mathematics, physics, and introductory computer science concepts. <br>
+             This ensures a solid base for understanding more specialized topics.<br>
+              The final two years, however, are more sector-focused, diving deeply into fields like artificial intelligence,<br>
+               machine learning, and network security. This progression allows students to gradually build expertise while <br>
+               exploring advanced and practical aspects of their discipline.
+        </p>
+    
+        <h3>Year 1</h3>
+        <p>
+            Calculus: Develop skills to analyze and solve mathematical problems involving limits, derivatives, and integrals.<br>
+            Physics: Understand fundamental physical principles and their applications in engineering.<br>
+            Fundamentals of Computer Engineering: Learn the basics of computer systems, including hardware and software interactions.<br>
+            Algebra: Master algebraic techniques for solving equations and modeling problems.<br>
+            Programmation: Acquire foundational programming skills using modern languages and paradigms.<br>
+            Computer Architecture: Understand how computers are structured and how components work together.
+        </p>
+    
+        <h3>Year 2</h3>
+        <p>
+            Algorithms: Learn to design, analyze, and optimize computational algorithms.<br>
+            Database: Understand database systems, including modeling, design, and querying techniques.<br>
+            Programmation II: Advance programming knowledge with a focus on object-oriented and advanced paradigms.<br>
+            UML Fundamentals: Master the Unified Modeling Language for software design and system architecture.<br>
+            Statistic: Analyze data using statistical methods and apply probability theory to engineering problems.<br>
+            Operative System: Study how operating systems manage hardware, processes, and resources.<br>
+            Electronics: Learn the basics of electronic circuits and their applications in engineering systems.
+        </p>
+    
+        <h3>Year 3</h3>
+        <p>
+            Networks: Understand the principles of computer networking, including protocols and infrastructure.<br>
+            Artificial Intelligence: Explore the basics of AI, including machine learning, decision-making, and problem-solving.<br>
+            Security: Learn techniques to protect computer systems and networks from cyber threats.<br>
+            Automation: Study automated systems and their applications in industrial and technological contexts.<br>
+            Concurrent Programmation: Develop programs that run efficiently using parallel and concurrent processing.<br>
+            History of IT: Gain insight into the evolution of computer science and its societal impact.
+        </p>
+    
+        <h3>Year 4</h3>
+        <p>
+            Economics: Understand basic economic principles and their relevance to engineering and technology.<br>
+            Machine Learning: Learn advanced methods for building predictive and adaptive models.<br>
+            Data Mining: Study techniques for extracting meaningful patterns from large datasets.<br>
+            Final Project: Apply knowledge and skills to solve a complex real-world problem, demonstrating expertise in a chosen field.
+        </p>
+    </div>
+    
+      <div class="why-choose">
+        <h2>Job oppurtunities</h2>
+        <p>Computer engineering offers a wide range of career opportunities across various industries, including technology, finance, healthcare, and telecommunications.<br>
+            Common roles include software engineer, hardware engineer, network architect, and data scientist. <br>
+            Computer engineers are in high demand globally, with job prospects expected to grow as technology continues to advance.<br>
+            Compared to other faculties, such as humanities or social sciences, computer engineering graduates often enjoy higher starting salaries<br> 
+            and more stable employment opportunities. <br>
+            This is due to the specialized technical skills they acquire, which are highly valued in today's job market. <br>
+            Additionally, career growth in fields like artificial intelligence, cybersecurity, <br>
+            and machine learning provides computer engineers with a strong earning potential<br> 
+            and the ability to work in cutting-edge domains.</p>
+      </div>
+    </section>
+
+   
+  </main>
+
+  <footer>
+    <div class="social-links">
+      <a href="https://www.linkedin.com"><img src="..\Images\linkedin_logo.png" alt="LinkedIn Logo"></a>
+      <a href="https://www.github.com"><img src="..\Images\github_logo.png" alt="GitHub Logo"></a>
+    </div>
+  </footer>
+  <script src="../script.js"></script>
+</body>
+</html>
