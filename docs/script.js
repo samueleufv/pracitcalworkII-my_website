@@ -26,7 +26,7 @@ function generateCaptcha() {
   document.querySelector('form').addEventListener('submit', function(event) {
     const userAnswer = parseInt(document.getElementById('captcha').value, 10); 
     if (userAnswer !== correctAnswer) { 
-      alert('Captcha non corretto. Riprova.'); 
+      alert('Captcha not correct. Retry.'); 
       event.preventDefault(); 
       correctAnswer = generateCaptcha();
     }
