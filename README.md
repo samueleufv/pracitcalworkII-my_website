@@ -19,4 +19,5 @@
 -added the sixth page: degree.html with relative css fot its content in public folder and CSS folder
 -added the seventh page: fce.html in public folder and CSS folder
 -added a captcha to contact.html in public folder
--added .gitignore in root folder 
+-added .gitignore in root folder
+-first deployment on 29 December 2024
