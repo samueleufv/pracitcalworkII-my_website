@@ -1,4 +1,4 @@
-/* Reset e Base */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@
     background-color: #f4f4f4;
   }
   
-  /* Palette Colori Coerente */
+  
   :root {
     --primary-color: #003366;
     --secondary-color: #6BA6E8;
@@ -20,7 +20,7 @@
     --text-light: #6A6A6A;
   }
   
-  /* Header Consistente */
+
   header {
     background-color: var(--primary-color);
     color: white;
@@ -44,7 +44,7 @@
     border-radius: 4px;
   }
   
-  /* Navigazione */
+  
   nav {
     background-color: var(--primary-color);
   }
@@ -70,7 +70,7 @@
     color: var(--secondary-color);
   }
   
-  /* Layout Principale */
+  
   main {
     display: flex;
     margin: 20px;
@@ -93,7 +93,7 @@
     display: none;
   }
   
-  /* Sidebar Uniforme */
+ 
   aside h2 {
     color: var(--primary-color);
     margin-bottom: 15px;
@@ -110,13 +110,13 @@
     border-bottom: 1px solid #e0e0e0;
   }
   
-  /* Sezioni Contenuto */
+  
   section h1, section h2 {
     color: var(--primary-color);
     margin-bottom: 20px;
   }
   
-  /* Footer */
+  
   footer {
     background-color: var(--primary-color);
     color: white;
@@ -134,13 +134,29 @@
     transform: scale(1.1);
   }
   
+  .footer-section {
+    max-width: 1000px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+   }
+ 
+ .footer-section a {
+     color: red;
+     text-decoration:none;
+ }
+ 
+ .footer-section a:hover{
+    text-decoration: underline;
+ }
   
-  /* Nasconde le sotto-liste */
+
   .hidden {
     display: none;
   }
   
-  /* Stile di base per il sidebar */
+
   .sidebar {
     width: 250px;
     background-color: #f4f4f4;
@@ -174,7 +190,7 @@
     color: #007BFF;
   }
   
-  /* Stile per la sotto-lista (corsi) */
+
   .sidebar ul ul {
     padding-left: 20px;
   }
@@ -183,13 +199,12 @@
     text-align: center;
   }
   
-  
-  /* Contact Form Styles */
+
   .contact-form {
     flex: 3;
     padding: 20px;
-    max-width: 500px; /* Restringe la larghezza del form */
-    margin: 0 auto; /* Centra il form */
+    max-width: 500px; 
+    margin: 0 auto;
   }
   
   .form-group {
@@ -218,7 +233,7 @@
     border-radius: 4px;
     cursor: pointer;
     display: block;
-    margin: 0 auto; /* Centra il bottone orizzontalmente */
+    margin: 0 auto;
   }
   
   button[type="submit"]:hover {
@@ -244,9 +259,9 @@
   .partner-grid {
     flex: 3;
     padding: 20px;
-    max-width: 600px; /* Rimpicciolisce il form */
-    margin: 0 auto; /* Centra il form */
-    text-align: center; /* Centra il contenuto all'interno del form */
+    max-width: 600px; 
+    margin: 0 auto; 
+    text-align: center; 
   }
   
   .grid-container {

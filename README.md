@@ -28,7 +28,10 @@
 ## Description of the Work
 This project involves creating a structured and functional website with various interconnected sections, each serving a unique purpose. The primary aim is to develop a cohesive and informative site that showcases essential aspects of my academic journey and  personal interest . The website is organized into multiple HTML pages, styled with CSS, and hosted on GitHub for online-accessibility.
 Web Pages:
-All pages have a common header that is  the upper part of the webpage, a common breadcrumb that is a type of secondary navigation scheme that reveals the user’s location in a website and a common footer  that is the bottom section of a website.All pages differ in their main content inside the main tag .  
+All pages have a common header that is  the upper part of the webpage, a common breadcrumb that is a type of secondary navigation scheme that reveals the user’s location in a website and a common footer  that is the bottom section of a website.All pages differ in their main content inside the main tag .
+The header contains an image: the UFV logo , ufv represents my host university from my Erasmus period and it has a direct link to ufv.es
+The footer contains 2 images : Linkedin and Github with relative links , though only Github points out to my personal social media , Linkedin image points out to general home of LINKEDIN , i don't have a personal LINKEDIN account.
+The footer also contains a footer copyright.
 All these components are styled in CSS page : styles.css . 
 These are the HTML pages:
 -Main Page (index.html):
