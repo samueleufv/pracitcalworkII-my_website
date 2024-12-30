@@ -1,0 +1,28 @@
+# Ignore operating system generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary editor files
+*.swp
+*.swo
+*.tmp
+~*
+
+# Ignore editor configuration files
+.idea/
+*.iml
+
+# Ignore build directories
+/dist/
+/build/
+
+# Ignore libraries installed by package managers
+node_modules/
+bower_components/
+
+# Ignore local configuration files
+.env
+.env.*
