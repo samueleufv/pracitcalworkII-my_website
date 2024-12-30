@@ -58,16 +58,18 @@ Lists some partner pages with their names and links to their websites.
 Offers comprehensive information on a chosen topic.
 The topic is related to a personal interest : the Bioinformatic .
 Folder Structure
-- Root Folder:
+Root Folder:
 1) README.md (documentation file)
 2) LICENSE file( Apache License Version 2.0, January 2024)
 3) .gitignore file
 4) docs folder 
+
      
 Docs folder contains: 
 - CSS Folder: Contains the global stylesheet for consistent styling across all pages.All HTML pages has a direct link to CSS file through a relative path :  <link rel="stylesheet" href="../CSS/styles.css"> .
 - Images Folder: Stores 7 images (in .png and .jpeg format) and 1 PDF file used throughout the website.
 - Script.js file: This script manages two functions: it controls the visibility of a list of courses in the sidebar of degree.html page, making it appear or disappear when clicked. It also generates a simple math question as a captcha in the contact form to verify the user is human in the contact.html page. If the user answers incorrectly, they are prompted to try again before submitting the form.
+- index.html
 - Public Folder: Houses the following HTML files:
 1) about.html
 2) degree.html
@@ -75,6 +77,7 @@ Docs folder contains:
 4) contact.html
 5) net.html
 6) topic.html
+
 
 
 ### Github
